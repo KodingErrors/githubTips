@@ -1,1 +1,5 @@
-It was the best of times, it was the worst of times,
+Git guide:
+
+git log                                 -> to get info on all the commits
+git add .(for all) and git add <insertFileName> 
+git commit -m "<insert msg>"            -> to commit changes
