@@ -3,3 +3,20 @@ Git guide:
 git log                                 -> to get info on all the commits
 git add .(for all) and git add <insertFileName> 
 git commit -m "<insert msg>"            -> to commit changes
+
+git rm --cached -r .                    -> every single file in the post-commit staging area
+
+
+
+
+
+Git ignore:
+
+create gitignore and inside the file:
+
+add each of the files you want to ignore with their file names on each line
+and if to ignore all files of a certain extension do ```.txt```
+
+use # to comment
+
+github.com/gitignore                  -> has template ideas of how to remove files of different projects (like node, react, etc)
