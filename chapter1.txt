@@ -6,8 +6,11 @@ git commit -m "<insert msg>"            -> to commit changes
 
 git rm --cached -r .                    -> every single file in the post-commit staging area
 
+git merge '<insertBranchName>'
 
+git push origin main -u
 
+.q! (to close vim)
 
 
 Git ignore:
